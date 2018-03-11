@@ -1,0 +1,233 @@
+{
+    "fromDialog": [{
+        "id": "0000",
+        "details": [
+            ["很高兴遇见你"]
+        ],
+        "responses": [{
+            "content": "我也是！",
+            "nextDianlog": ["1000"]
+        }, {
+            "content": "栖林，我是你的栖宝",
+            "nextDianlog": ["2000"]
+        }, {
+            "content": "我是来打酱油的",
+            "nextDianlog": ["3000"]
+        }, {
+            "content": "我有一个问题想问你",
+            "nextDianlog": ["4000"]
+        }]
+    }, {
+        "id": "1000",
+        "details": [
+            ["我最近的抖音小视频", "你喜欢吗？"]
+        ],
+        "responses": [{
+            "content": "特别喜欢",
+            "nextDianlog": ["1010"]
+        },  {
+            "content": "还好",
+            "nextDianlog": ["1009"]
+        }]
+    }, {
+        "id": "1009",
+        "details": [
+            ["哼"]
+        ],
+        "nextDianlog": ["1010"]
+    }, {
+        "id": "1010",
+        "details": [
+            ["宝宝我不开心"]
+        ],
+        "responses": [{
+            "content": "为什么不开心呢",
+            "nextDianlog": ["1020"]
+        },  {
+            "content": "我来哄哄你",
+            "nextDianlog": ["1020"]
+        }]
+    }, {
+        "id": "1020",
+        "details": [
+            ["我没有男朋友，我要买衣服"]
+        ],
+        "responses": [{
+            "content": "我可以送你",
+            "nextDianlog": ["1021"]
+        },  {
+            "content": "我可以帮你想办法",
+            "nextDianlog": ["1030"]
+        },  {
+            "content": "先不说了，我手机只有98%的电量了",
+            "nextDianlog": ["1040"]
+        }]
+    }, {
+        "id": "1021",
+        "details": [
+            ["这么好呀","这是我的支付宝收款码",
+                "<img src='img/alipay.jpg'>",
+                "记得备注你的名字"]
+        ],
+        "nextDianlog": ["1022"]
+    }, {
+        "id": "1022",
+        "details": [
+            ["乖，要不要看看我发现的好吃的"]
+        ],
+        "responses": [{
+            "content": "好呀",
+            "nextDianlog": ["6000"]
+        },  {
+            "content": "。。。。。。",
+            "nextDianlog": ["1090"]
+        }]
+    }, {
+        "id": "1030",
+        "details": [
+            ["那你可不可以买我的东西呢"]
+        ],
+        "responses": [{
+            "content": "好呀",
+            "nextDianlog": ["6000"]
+        },  {
+            "content": "呃，别误会",
+            "nextDianlog": ["1090"]
+        }]
+    }, {
+        "id": "1040",
+        "details": [
+            ["哼","你是不是留着电，看我的抖音啊"]
+        ],
+        "responses": [{
+            "content": "聪明的姑娘",
+            "nextDianlog": ["6000"]
+        },  {
+            "content": "呃，别误会",
+            "nextDianlog": ["1090"]
+        }]
+    }, {
+        "id": "1090",
+        "details": [
+            ["乖啦，可爱的栖宝", "回聊哈"]
+        ],
+        "responses": [{
+            "content": "好的~",
+            "nextDianlog": ["9001"]
+        },  {
+            "content": "等等",
+            "nextDianlog": ["9001"]
+        }]
+
+    }, {
+        "id": "2000",
+        "details": [
+            ["么么哒~"]
+        ],
+        "nextDianlog": ["1000"]
+
+    }, {
+        "id": "3000",
+        "details": [
+            ["酱油是什么牌子的？", "比我的雪花酥好吃吗？"]
+        ],
+        "responses": [{
+            "content": "当然",
+            "nextDianlog": ["3010"]
+        },  {
+            "content": "这能比吗？",
+            "nextDianlog": ["3020"]
+        }]
+    }, {
+        "id": "3010",
+        "details": [
+            ["不信，你看看我的雪花酥"]
+        ],
+        "nextDianlog": ["6000"]
+    }, {
+        "id": "3020",
+        "details": [
+            ["不仔细看看", "怎么知道你眼里有没有我"]
+        ],
+        "nextDianlog": ["6000"]
+
+    }, {
+        "id": "4000",
+        "details": [
+            ["我搬好小板凳了", "你说吧"]
+        ],
+        "responses": [{
+            "content": "哇，好的",
+            "nextDianlog": ["4010"]
+        },  {
+            "content": "别误会，我是来问订单的",
+            "nextDianlog": ["4020"]
+        }]
+    }, {
+        "id": "4010",
+        "details": [
+            ["你是不是想说你喜欢我？", "那我只有一个要求，再说一遍"]
+        ],
+        "responses": [{
+            "content": "恩恩",
+            "nextDianlog": ["9001"]
+        },  {
+            "content": "并不是",
+            "nextDianlog": ["9001"]
+        }]
+    }, {
+        "id": "4020",
+        "details": [
+            ["售后？售后是没有的了", "给我发红包倒是可以",
+                "<img src='img/wechat.jpg'>"]
+        ],
+        "responses": [{
+            "content": "噫! 噫@ 噫# 噫$",
+            "nextDianlog": ["9001"]
+        },  {
+            "content": "咳咳咳",
+            "nextDianlog": ["9001"]
+        }]
+
+    }, {
+        "id": "6000",
+        "details": [
+            ["我想想", "妙蛙种子，就是你了",
+                "<img src='img/saur.jpg'>"]
+        ],
+        "responses": [{
+            "content": "看我的小火龙",
+            "nextDianlog": ["6002"]
+        },  {
+            "content": "哇",
+            "nextDianlog": ["6001"]
+        },  {
+            "content": "这？！？",
+            "nextDianlog": ["6001"]
+        }]
+    }, {
+        "id": "6001",
+        "details": [
+            ["测试版本啦，哪有什么商品"]
+        ],
+        "nextDianlog": ["9001"]
+    }, {
+        "id": "6002",
+        "details": [
+            ["<img src='img/fire.jpg'>"]
+        ],
+        "nextDianlog": ["6001"]
+    }, {
+        "id": "9001",
+        "details": [
+            ["哈哈，这是对话的死亡循环"]
+        ],
+        "responses": [{
+            "content": "尴尬",
+            "nextDianlog": ["0000"]
+        },  {
+            "content": "这？！？",
+            "nextDianlog": ["0000"]
+        }]
+    }]
+}
